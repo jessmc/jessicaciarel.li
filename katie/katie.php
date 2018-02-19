@@ -1,5 +1,5 @@
 <style>
-<?php include 'css/maids.css'; ?>
+<?php include '../css/maids.css'; ?>
 </style>
 
 <?php
@@ -16,19 +16,20 @@
     $totalCorrect = 0;
     
     if ($answer1 == "B") { $totalCorrect++; }
-    if ($answer2 == "B") { $totalCorrect++; }
-    if ($answer3 == "A") { $totalCorrect++; }
-    if ($answer4 == "B") { $totalCorrect++; }
-    if ($answer5 == "D") { $totalCorrect++; }
-    if ($answer6 == "B") { $totalCorrect++; }
-    if ($answer7 == "C") { $totalCorrect++; }
+    if ($answer2 == "C") { $totalCorrect++; }
+    if ($answer3 == "D") { $totalCorrect++; }
+    if ($answer4 == "A") { $totalCorrect++; }
+    if ($answer5 == "B") { $totalCorrect++; }
+    if ($answer6) { $totalCorrect++; }
+    if ($answer7 == "B") { $totalCorrect++; }
     if ($answer8 == "C") { $totalCorrect++; }  
+
 
     echo "<div id='results'>You got $totalCorrect / 8 correct !!</div>
 
     <div class='question-link'>
-    <h2><a href='bridesmaid.html'>One last question...</a></h2>
-    <img src='images/maids/Love_Roses_Wreath.png'>
+    <h2><a href='../maid-of-honor.html'>One last question...</a></h2>
+    <img src='../images/maids/Love_Roses_Wreath.png'>
     </div>";
     
 ?>

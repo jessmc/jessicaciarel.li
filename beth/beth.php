@@ -1,5 +1,5 @@
 <style>
-<?php include 'css/maids.css'; ?>
+<?php include '../css/maids.css'; ?>
 </style>
 
 <?php
@@ -27,8 +27,8 @@
     echo "<div id='results'>You got $totalCorrect / 8 correct !!</div>
 
     <div class='question-link'>
-    <h2><a href='bridesmaid.html'>One last question...</a></h2>
-    <img src='images/maids/Love_Roses_Wreath.png'>
+    <h2><a href='../bridesmaid.html'>One last question...</a></h2>
+    <img src='../images/maids/Love_Roses_Wreath.png'>
     </div>";
     
 ?>
