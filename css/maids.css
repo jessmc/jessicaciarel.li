@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Rochester");
+body.home {
+  background: linear-gradient(to bottom, #434343 0%, black 100%) no-repeat center center fixed;
+  background-size: cover; }
+  body.home h2 {
+    color: #F0C9F2; }
+
+body.question {
+  background: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%) no-repeat center center fixed;
+  background-size: cover; }
+  body.question img {
+    width: 100%;
+    margin-top: -60px; }
+    @media (max-width: 768px) {
+      body.question img {
+        margin-top: 0px; } }
+
+body {
+  background: linear-gradient(to right, #868f96 0%, #596164 100%) no-repeat center center fixed;
+  background-size: cover;
+  color: #FFF;
+  font-family: 'Playfair Display', serif;
+  /*** basic styles ***/ }
+  body h1 {
+    text-align: center;
+    font-family: 'Rochester', cursive;
+    font-size: 200px;
+    color: #FFF;
+    z-index: 3;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 2px 4px 20px 12px rgba(173, 124, 2, 0.7); }
+    @media (max-width: 768px) {
+      body h1 {
+        font-size: 100px;
+        width: 300px;
+        height: 300px; } }
+    body h1 .flowers {
+      width: 800px;
+      position: absolute;
+      top: -133px;
+      left: -150px;
+      z-index: 4; }
+      @media (max-width: 768px) {
+        body h1 .flowers {
+          width: 500px;
+          top: -96px;
+          left: -98px; } }
+  body h2 {
+    font-family: 'Rochester', cursive;
+    font-size: 70px;
+    text-align: center;
+    color: #000; }
+  body .img1 {
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    margin-top: 200px;
+    border: 5px solid #FFF; }
+    @media (max-width: 768px) {
+      body .img1 {
+        width: 95%; } }
+  body .img2-3 {
+    display: flex;
+    justify-content: center; }
+    @media (max-width: 768px) {
+      body .img2-3 {
+        flex-direction: column; } }
+    body .img2-3 .img2, body .img2-3 .img3 {
+      width: 100%;
+      max-width: 500px;
+      height: 300px;
+      background-size: cover;
+      margin: 20px;
+      box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.6);
+      border: 8px solid #73AB67; }
+      @media (max-width: 768px) {
+        body .img2-3 .img2, body .img2-3 .img3 {
+          width: 95%;
+          margin: 10px 0px; } }
+  body .img4-5 {
+    display: flex;
+    justify-content: center; }
+    @media (max-width: 768px) {
+      body .img4-5 {
+        flex-direction: column; } }
+    body .img4-5 .img4, body .img4-5 .img5 {
+      width: 100%;
+      max-width: 400px;
+      height: 400px;
+      background-size: cover;
+      box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.6);
+      margin: 20px;
+      border: 5px solid #F0C9F2; }
+      @media (max-width: 768px) {
+        body .img4-5 .img4, body .img4-5 .img5 {
+          width: 95%;
+          margin: 10px 0px; } }
+  body .img6 {
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    border: 8px solid #BF9922; }
+    @media (max-width: 768px) {
+      body .img6 {
+        width: 95%; } }
+  body .quiz-section {
+    max-width: 940px;
+    margin: 0 auto; }
+    body .quiz-section li {
+      font-size: 35px;
+      margin-top: 50px; }
+      body .quiz-section li h3 {
+        font-size: 30px; }
+        @media (max-width: 768px) {
+          body .quiz-section li h3 {
+            font-size: 26px; } }
+      body .quiz-section li div {
+        padding: 20px;
+        width: 560px;
+        margin: 0 auto; }
+        @media (max-width: 768px) {
+          body .quiz-section li div {
+            width: 100%;
+            padding: 0; } }
+    body .quiz-section label {
+      font-size: 30px; }
+      @media (max-width: 768px) {
+        body .quiz-section label {
+          font-size: 24px; } }
+    body .quiz-section input[type=submit] {
+      background-color: #000;
+      color: #F0C9F2;
+      border: 5px solid #F0C9F2;
+      width: 500px;
+      height: 100px;
+      font-size: 30px;
+      font-family: 'Rochester', cursive;
+      margin: 0 auto;
+      display: block;
+      margin-top: 150px;
+      margin-bottom: 100px; }
+      @media (max-width: 768px) {
+        body .quiz-section input[type=submit] {
+          width: 100%; } }
+      body .quiz-section input[type=submit]:hover {
+        background-color: #000;
+        color: #BF9922;
+        border: 5px solid #BF9922;
+        cursor: pointer; }
+  body #results {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    margin-top: 20px; }
+  body .question-link h2 a {
+    color: #BF9922;
+    z-index: 3;
+    position: relative; }
+    body .question-link h2 a:hover {
+      color: #000; }
+  body .question-link img {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+    margin-top: -150px; }
+  body input[type=radio] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px; }
+  body input[type=radio] ~ label:before {
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f1db";
+    letter-spacing: 10px;
+    font-size: 1.2em;
+    color: #BF9922;
+    width: 1.4em; }
+  body input[type=radio]:checked ~ label:before {
+    content: "\f0a4";
+    font-size: 1.2em;
+    color: #73AB67;
+    letter-spacing: 5px; }
+  body input[type=radio]:focus ~ label:before,
+  body input[type=radio]:focus ~ label {
+    color: #73AB67; }
+
+/*# sourceMappingURL=maids.css.map */
